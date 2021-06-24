@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Telemedicine</string>
+    <string name="splash_screen_description">The background of the splash screen</string>
+    <string name="welcome">Welcome</string>
+    <string name="dummy_text">  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, t. Ut enim ad veni am, quis nostrud exercitation ullamco</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="failed">Login failed!!</string>
+    <string name="add_photos">ADD PHOTOS</string>
+    <string name="title_activity_signup">Register</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_approved_request">Notification</string>
+    <string name="title_activity_login">Login</string>
+</resources>
