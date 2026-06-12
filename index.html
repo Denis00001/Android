@@ -48,7 +48,17 @@
                     <div class="text-lg font-bold">Google Play</div>
                 </div>
             </a>
+            <!--
              <a href="https://youtube.com/watch?v=none" target="_blank" class="flex items-center bg-white text-red-600 border-2 border-red-100 px-6 py-3 rounded-xl hover:bg-red-50 transition shadow-md">
+                <i class="fab fa-youtube mr-3 text-2xl"></i>
+                <span class="text-lg font-bold i18n" data-ru="Демо видео" data-en="Demo Video">Демо видео</span>
+            </a>
+            -->
+            <a href="javascript:void(0);" 
+               onclick="alert(this.getAttribute('data-msg-' + (currentLang || 'ru')))"
+               data-msg-ru="Ожидается в скором времени!" 
+               data-msg-en="Coming soon!"
+               class="flex items-center bg-white text-red-600 border-2 border-red-100 px-6 py-3 rounded-xl hover:bg-red-50 transition shadow-md cursor-pointer">
                 <i class="fab fa-youtube mr-3 text-2xl"></i>
                 <span class="text-lg font-bold i18n" data-ru="Демо видео" data-en="Demo Video">Демо видео</span>
             </a>
