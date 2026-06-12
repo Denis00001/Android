@@ -55,9 +55,7 @@
             </a>
             -->
             <a href="javascript:void(0);" 
-               onclick="alert(this.getAttribute('data-msg-' + (currentLang || 'ru')))"
-               data-msg-ru="Ожидается в скором времени!" 
-               data-msg-en="Coming soon!"
+               onclick="const isEn = this.querySelector('span').innerText.includes('Demo'); alert(isEn ? 'Coming soon!' : 'Ожидается в скором времени!')"
                class="flex items-center bg-white text-red-600 border-2 border-red-100 px-6 py-3 rounded-xl hover:bg-red-50 transition shadow-md cursor-pointer">
                 <i class="fab fa-youtube mr-3 text-2xl"></i>
                 <span class="text-lg font-bold i18n" data-ru="Демо видео" data-en="Demo Video">Демо видео</span>
